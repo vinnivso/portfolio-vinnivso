@@ -10,18 +10,51 @@
 </head>
 <body>
 
+
+  <!-- Overlay Start -->
+  <div class="overlay">
+    
+  </div>
+  <!-- Overlay End -->
+
+
   <!-- Main Start -->
   <div class="main">
+
+
+    <!-- Header Start -->
+    <header class="header">
+      <div class="container">
+        <div class="row flex-end">
+          <button type="button" class="nav-toggler">
+            <span></span>
+          </button>
+          <nav class="nav">
+            <div class="nav-inner">
+              <ul>
+                <li><a href="#home" class="nav-item link-item">home</a></li>
+                <li><a href="#about" class="nav-item link-item">sobre</a></li>
+                <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                <li><a href="#contact" class="nav-item link-item">contato</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+
     <!-- Home Section Start -->
-    <section class="home-section align-items-center hidden">
+    <section class="home-section align-items-center active" id="home">
       <div class="container">
         <div class="row align-items-center">
           <div class="home-text">
-            <p>Hello, I'm</p>
+            <p>Olá, Eu sou</p>
             <h1>Vinícius Oliveira</h1>
             <h2>Full Stack Web Developer</h2>
-            <a href="#" class="btn">more about me</a>
-            <a href="#" class="btn">portfolio</a>
+            <a href="#about" class="btn link-item">Mais sobre</a>
+            <a href="#portfolio" class="btn link-item">portfolio</a>
           </div>
           <div class="home-img">
             <div class="img-box">
@@ -35,11 +68,11 @@
 
 
     <!-- About Section Start -->
-    <section class="about-section sec-padding hidden">
+    <section class="about-section sec-padding" id="about">
       <div class="container">
         <div class="row">
           <div class="section-title">
-            <h2>about me</h2>
+            <h2>Sobre</h2>
           </div>
         </div>
         <div class="row">
@@ -121,8 +154,8 @@
             </div>
             <!-- Experience End -->
 
-            <a href="" class="btn">download cv</a>
-            <a href="" class="btn">contact me</a>
+            <a href="ViniciusOliveira.Resume.pdf" target="_blank" class="btn">download cv</a>
+            <a href="#contact" class="btn link-item">contato</a>
 
           </div>
         </div>
@@ -131,7 +164,7 @@
     <!-- About Section End -->
 
     <!-- Portfolio Section Start -->
-    <section class="portfolio-section sec-padding hidden">
+    <section class="portfolio-section sec-padding" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="section-title">
@@ -306,7 +339,7 @@
 
 
     <!-- Contact Section Start -->
-    <section class="contact-section sec-padding">
+    <section class="contact-section sec-padding" id="contact">
       <div class="container">
         <div class="row">
           <div class="section-title">
