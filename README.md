@@ -13,10 +13,6 @@ Perfil      | Link do perfil no GITHUB
 - [x]  CSS
 - [x]  Javascript
 
-## Starting Dev Environment
-1. Run yarn
-2. Run yarn dev
-
 Prints:
 
 ![image](https://user-images.githubusercontent.com/52759918/148142398-0a95b918-affb-4f94-868c-a4b3ca47c7e4.png)
